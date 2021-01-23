@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background: #23180d;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 32px auto;
+}
+
+h2 {
+    font-weight: lighter;
+    color: #c52d2f;
+}
+
+p {
+    color: white;
+}
+
+.card {
+    padding: 24px;
+    display: block;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 8px 0 rgba(245, 61, 61, 0.747);
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(#eea77e, #d57d1f);
+}
+
+beef-menu {
+    display: block;
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
+
+#angle-up {
+    display: inline-block;
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background-color: #c52d2f;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 100px;
+  }
+#angle-up:hover {
+    background-color: #ec0d11;
+  }
